@@ -1,0 +1,3 @@
+LOGIN_URL = "accounts:login"
+pytest
+pytest -v
