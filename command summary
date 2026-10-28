@@ -1,0 +1,11 @@
+git checkout main
+git pull origin main
+git checkout -b feature/routing-cleanup
+
+# make code changes
+
+pytest
+
+git add .
+git commit -m "Use a single login URL"
+git push -u origin feature/routing-cleanup
