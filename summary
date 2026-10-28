@@ -1,0 +1,9 @@
+# edit config/settings.py
+TIME_ZONE = "America/New_York"
+# leave USE_TZ = True
+
+pytest
+
+git add config/settings.py
+git commit -m "Set time zone to America/New_York"
+git push
